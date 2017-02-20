@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @deal.name %>
+</p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @deal.location %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @deal.price %>
+</p>
+
+<%= link_to 'Edit', edit_deal_path(@deal) %> |
+<%= link_to 'Back', deals_path %>
